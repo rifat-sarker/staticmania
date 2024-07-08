@@ -151,6 +151,13 @@ nav ul li a {
 }
 /* section1 ends here */
 
+/* section2 starts from here */
+.section2 {
+  height: fit-content;
+  margin-bottom: -5px;
+}
+/* section2 ends here */
+
 /*  section3 starts from here */
 .section3 {
   background-color: #1b3936;
@@ -161,7 +168,7 @@ nav ul li a {
   gap: 20px;
   padding: 50px 15px;
 }
-.img1{
+.img1 {
   margin-top: 140px;
 }
 .img_container p {
@@ -170,7 +177,7 @@ nav ul li a {
   font-family: "Switzer", sans-serif;
   margin-top: 200px;
 }
-.section3_desc{
+.section3_desc {
   color: #678784;
   font-size: 50px;
   font-family: "Boska", serif;
@@ -183,6 +190,61 @@ nav ul li a {
   width: 900px;
   justify-content: center;
 }
-.white{
-  color: #FFFFFF;
+.white {
+  color: #ffffff;
 }
+.intersect {
+  margin-bottom: -5px;
+}
+/*  section3 ends here */
+
+/*  section4 starts from  here */
+.section4 {
+  background-color: #f9f9f9;
+  padding: 50px 16px;
+}
+.section4_heading {
+  font-size: 50px;
+  font-family: "Boska", serif;
+  color: #1b3936;
+  padding: 15px 50px;
+  width: auto;
+}
+.img_container2 {
+  display: flex;
+  gap: 20px;
+  padding: 150px 10px;
+}
+.img2 {
+  position: relative;
+  top: -110px;
+}
+/*  section4 ends  here */
+
+/*  section5 starts from  here */
+.section5 {
+  background-color: #1b3936;
+  position: relative;
+}
+.section5_img {
+  position: relative;
+  left: 170px;
+  padding: 60px 50px;
+}
+.section5_heading {
+  position: absolute;
+  left: 550px;
+  bottom: 500px;
+}
+.section5_heading h4 {
+  font-size: 50px;
+  font-family: "Boska", serif;
+  color: #ffffff;
+}
+.section5_heading p {
+  font-size: 18px;
+  font-family: "Switzer", sans-serif;
+  color: #ffffff;
+  padding: 10px;
+}
+/*  section5 ends  here */
